@@ -4,9 +4,7 @@ This is the source code for the Homer code challenge. The framework used was nod
 
 ## Demo
 In a web browser, curl, PostMan or any app that can process http(s) requests:
-point to: http://40.75.93.209:8080/get_weather/<ZIP CODE>
-          http://40.75.93.209:8080/get_weather/90210  
-
+http://40.75.93.209:8080/get_weather/90210  
   
 ## Pre-requisites
 Operating system: Any Linux (debian, ubuntu, etc)
@@ -25,7 +23,7 @@ cd HOMER_Challenge/
 npm run start
 
 ## Test a ZIP Code
-Example: get forecast info for the zipcode 90210
+Example: Run at localhost. Get forecast info for the zipcode 90210
 point to http://localhost:8080/get_weather/90210
 
 ## Relevant source code:
